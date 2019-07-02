@@ -15,4 +15,8 @@ public class SampleController {
 	public String master() {
 		return "matser";
 	}
+	@RequestMapping("/bugfix.do")
+	public String bugfix() {
+		return "bugfix";
+	}
 }
